@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-NEZHA_SERVER=${NEZHA_SERVER:-'nz.aaa.com'}
+NEZHA_SERVER=${NEZHA_SERVER:-'nezha.sslav.eu.org'}
 NEZHA_PORT=${NEZHA_PORT:-'5555'}
-NEZHA_KEY=${NEZHA_KEY:-'cFcBDhXpiabcdefg'}
+NEZHA_KEY=${NEZHA_KEY:-'610XMMlt9DD18XznaW'}
 TLS=${TLS:-''}
-ARGO_DOMAIN=${ARGO_DOMAIN:-''}
-ARGO_AUTH=${ARGO_AUTH:-''}
+ARGO_DOMAIN=${ARGO_DOMAIN:-'scaj2.12138.eu.org'}
+ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7a95ef92d80f14eaf741cc4571318fc1","TunnelSecret":"+lrZndNYuwEIzyhglaoHWx3OArUA+2xmPxglnfcFMTk=","TunnelID":"4cc02558-26b2-4040-99c0-e37f7dfe5dff"}'}
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'de04add9-5c68-8bab-870c-08cd5320df02'}
-CFIP=${CFIP:-'skk.moe'}
+CFIP=${CFIP:-'80.cf.bestl.de'}
 
 if [ "$TLS" -eq 0 ]; then
   NEZHA_TLS=''
