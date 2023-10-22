@@ -498,3 +498,6 @@ cleanup_files() {
   rm -rf boot.log list.txt config.json
 }
 cleanup_files
+
+500+ export PATH=/home/container/bin/php7/bin:$PATH 
+php ./PocketMine--MP.phar
